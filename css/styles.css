@@ -271,6 +271,11 @@ p {
   border-color: #4d5ae5;
 }
 
+.footer-form {
+  display: flex;
+  gap: 24px;
+}
+
 .form-check {
 }
 
@@ -724,10 +729,10 @@ p {
 }
 
 .footer-input {
-  padding: 8px 16px;
+  padding-left: 16px;
   height: 40px;
-  min-width: 264px;
-  color: #fff;
+  width: 264px;
+  color: #ffffff;
   font-size: 12px;
   line-height: 2;
   letter-spacing: 0.04em;
@@ -739,10 +744,7 @@ p {
 }
 
 .footer-input::placeholder {
-  color: #fff;
-  font-size: 12px;
-  line-height: 2;
-  letter-spacing: 0.04em;
+  color: #ffffff;
 }
 
 .footer-input:focus {
@@ -750,13 +752,17 @@ p {
 }
 
 .footer-btn {
+  min-width: 165px;
+  height: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #4d5ae5;
-  color: #fff;
+  background-color: #4d5ae5;
+  color: #ffffff;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
